@@ -22,6 +22,10 @@ nav {
   margin: 0 auto;
 }
 
+.purple {
+  color: #7342d6;
+}
+
 .logo {
   width: 160px;
 }
@@ -34,15 +38,31 @@ li {
   list-style-type: none;
 }
 .nav__link {
-  margin-left: 16px;
+  margin-left: 4px;
   text-decoration: none;
   font-size: 20px;
   color: #7342d6;
   font-weight: bold;
-  padding: 8px;
+  padding: 2px;
+}
+
+.nav__link:hover {
+  text-decoration: none;
 }
 
 .nav__link--primary {
   border: 2px solid #7342d6;
   border-radius: 4px;
+}
+
+#landing  {
+  background-color: rgba(115, 66, 214, 0.1);
+}
+
+header {
+  height: calc(100vh-80px);
+}
+
+.header__container {
+  
 }
